@@ -1,0 +1,13 @@
+**
+- Normally, when using hilt, we just annotate with @hiltApp.
+- Usually, this is not suitable for our test case.
+- This means that we have to create our own application class.
+- This is not done by default but we use the Junit runner that uses hilt test.
+application instead of our own.
+- This test class should be declared in the defaultConfig as well.
+
+- We then define our test app module.
+*
+
+// Testing the fragment with dagger hilt.
+- For this we uses the fragment scenarios.
